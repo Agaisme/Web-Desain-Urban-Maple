@@ -1,5 +1,15 @@
 body{
 }
+.nav li a {
+    background-color: transparent;
+}
+.nav li a:hover {
+    color: #3498DB;
+    background-color: transparent;
+}
+.nav li a.textmenu {
+    padding-top:25px;
+}
 header{
     position: fixed;
     z-index: 1030;
